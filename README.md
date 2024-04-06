@@ -1,1 +1,1 @@
-<em> # Autores </em>
+<em> Autores </em>
