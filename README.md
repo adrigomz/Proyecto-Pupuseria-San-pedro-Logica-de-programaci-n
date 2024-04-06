@@ -1,6 +1,6 @@
 <h1 align="center"> Autores: </h1>
 
-Alessandra Nicole García Domínguez
+<p>Alessandra Nicole García Domínguez
 
 Adriana Sofía Gómez Mejía 
 
