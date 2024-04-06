@@ -1,0 +1,153 @@
+*{                                     
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	font-family: "Poppins", sans-serif;         /*Aqui se empieza a poner parametros para Body*/
+	font-style: regular;
+	text-align: justify;
+	background-color: #F2F2F2;
+	color: #83A603
+	
+}
+
+header{                                        /*Aqui se empieza a poner parametros para el Header*/
+	height: 150px;                                  
+	width: 1920px;
+	position: relative;
+	background-color: #3a33db;	
+}
+
+.logo{
+	width: 100px;
+  height: 100px;
+}
+
+ul#menu li{                                /*Aqui se modifica los parametro dle contenido dentro de la barra de menú*/
+	padding: 0  20px 0 0px;                   
+	list-style: none;
+	margin: 0 0 0 0;
+	display: inline;
+	background: transparent;
+	color: white;
+	font-weight: 700;
+
+
+}	
+
+#barra_menu{                     /*Aqui se modifica el posicionamiento de la barra de menú */
+	width: 600px;
+	height: 40px;
+	float: center;
+	margin: 0 auto;
+	position: center;
+	padding-right: 180px;
+
+
+
+ul#menu li.current a{                  /*Se aplico un efecto cambio de color cuando el cursor pasa sobre el texto*/
+	color: #A6633C;
+	text-shadow: none;
+
+}
+
+a, a:hover{                             /*Aqui se aplica el efecto de hover a la barra de menú*/
+	color: white;
+	text-decoration: none;
+}
+
+ul#menu li:hover a{                  
+	color: #ffa15a;
+	text-shadow: none;
+}
+
+
+/*apartir de abajo se colocan las partes que se modificarian en cada pagina*/
+
+
+} 
+
+h2{                             /*Subtitulo de "presentacíón de menú"*/
+	text-align: center;
+	font-size: 2rem;
+	padding-top:43px ;
+	padding-bottom: 43px;
+	color: #3a33db;
+}
+
+section{                         /*Se aplica los parametros para section*/ 
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+  justify-content: center;
+	overflow: hidden;
+}
+
+
+p{                             /*Los cambios tipograficos para los parrafos dento de los articles*/ 
+	font-style: normal;
+	color: black;
+	
+}
+
+article {                            /*Se aplica los parametros para section*/                
+  width: 300px; 
+  margin: 10px auto;
+
+
+}
+
+section article{                   /*Se modifican los recuadros y espacios para los cuadros que estaran los textos e imagenes*/
+	font-size: 0.7rem;
+	float: right;
+	overflow: hidden;
+	border: 2px solid #C6C6C6;
+	border-radius: 35px;
+	padding: 5%;
+	box-sizing: border-box;
+	overflow: hidden;
+	text-align: center;
+	margin: 20px ;
+	background-color: white;
+
+
+}
+
+section article img{          /*cambios de parametros de las imagens que estan adentro de los article*/ 
+	height: 180px;
+	max-width: 80%;
+	float: center;
+	overflow: hidden;
+	display: block;
+	overflow: hidden;
+	margin: 5px auto;
+}
+
+
+h3{                            /*Modificacione para los subtitulos de las imagenes de las pupusas*/
+	text-align: center;
+	font-style: normal;
+	font-size: 1rem;
+	color: #ffa15a;
+}
+
+footer div{                      /*Se aplican los parametros de footer*/
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: #3a33db;
+	text-align: center;
+	color: #F2F2F2;
+
+
+
+
+
+
+
+
+
+
+
+

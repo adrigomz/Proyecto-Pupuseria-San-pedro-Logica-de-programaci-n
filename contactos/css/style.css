@@ -1,0 +1,105 @@
+*{                                     
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	font-family: "Poppins", sans-serif;         /*Aqui se empieza a poner parametros para Body*/
+	font-style: regular;
+	text-align: justify;
+	background-color: #F2F2F2;
+	color: #83A603
+	
+}
+
+header{                                        /*Aqui se empieza a poner parametros para el Header*/
+	height: 150px;                                  
+	width: 1920px;
+	position: relative;
+	background-color: #3a33db;	
+}
+
+.logo{
+	width: 100px;
+  height: 100px;
+}
+
+ul#menu li{                                /*Aqui se modifica los parametro dle contenido dentro de la barra de menú*/
+	padding: 0  20px 0 0px;                   
+	list-style: none;
+	margin: 0 0 0 0;
+	display: inline;
+	background: transparent;
+	color: white;
+	font-weight: 700;
+
+
+}	
+
+#barra_menu{                     /*Aqui se modifica el posicionamiento de la barra de menú */
+	width: 600px;
+	height: 40px;
+	float: center;
+	margin: 0 auto;
+	position: center;
+	padding-right: 180px;
+
+
+
+ul#menu li.current a{                  /*Se aplico un efecto cambio de color cuando el cursor pasa sobre el texto*/
+	color: #A6633C;
+	text-shadow: none;
+
+}
+
+a, a:hover{                             /*Aqui se aplica el efecto de hover a la barra de menú*/
+	color: white;
+	text-decoration: none;
+}
+
+ul#menu li:hover a{                  
+	color: #ffa15a;
+	text-shadow: none;
+}
+
+
+/*apartir de abajo se colocan las partes que se modificarian en cada pagina*/
+
+
+} 
+
+h2{                             /*Subtitulo de "presentacíón de menú"*/
+	text-align: center;
+	font-size: 2rem;
+	padding-top:43px ;
+	padding-bottom: 43px;
+	color: #3a33db;
+}
+
+
+
+div.image-mapa{
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 50px;
+
+}
+
+div.datos{
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+
+}
+
+footer div{                      /*Se aplican los parametros de footer*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+	background-color: #3a33db;
+	text-align: center;
+	color: #F2F2F2;
+
