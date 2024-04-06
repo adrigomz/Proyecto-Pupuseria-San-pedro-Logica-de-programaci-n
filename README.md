@@ -9,3 +9,5 @@ Pamela Rocio Murcia Villacorta
 Andrea Marcela Flores Rivas 
 
 Andrea Raquel Rodríguez Lechuga 
+
+<h1 align="center"> Licencias:</h1>
