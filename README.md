@@ -1,4 +1,4 @@
-<em> Autores </em>
+<em> Autores: </em>
 Alessandra Nicole García Domínguez
 
 Adriana Sofía Gómez Mejía 
