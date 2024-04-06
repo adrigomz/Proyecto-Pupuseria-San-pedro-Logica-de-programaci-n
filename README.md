@@ -13,6 +13,7 @@ Andrea Raquel Rodríguez Lechuga
 <h1 align="center"> Licencias:</h1>
 
 Licencias Creative Commons 
+Reconocimiento - No Comercial - Sin Obra Derivada (by-nc-nd)
 
 Usted es libre de:
 Compartir — copiar y redistribuir el material en cualquier medio o formato
